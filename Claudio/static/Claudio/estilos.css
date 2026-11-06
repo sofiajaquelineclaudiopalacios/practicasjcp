@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f8ee;
+    color: #233830;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: rgb(158, 221, 195);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* MENÚ */
+nav {
+    background-color: #72b39f;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #bde2dc;
+}
+
+/* CONTENIDO PRINCIPAL */
+.bienvenida {
+    background-color: rgb(116, 167, 139);
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.bienvenida h2 {
+    color: rgb(236, 207, 162);
+}
+
+.bienvenida p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: rgb(75, 128, 114);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
